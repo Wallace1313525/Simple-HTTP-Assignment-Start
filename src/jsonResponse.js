@@ -1,5 +1,3 @@
-import { request } from 'http';
-
 const text = require('./textResponse.js');
 
 const getHelloJSON = (request, response) => {

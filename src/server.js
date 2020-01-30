@@ -16,10 +16,10 @@ const onRequest = (request, response) => {
       htmlHandler.getPage2(request, response);
       break;
     case '/hello':
-      htmlHandler.getHello(request, response);
+      textHandler.getHello(request, response);
       break;
     case '/time':
-      htmlHandler.getTime(request, response);
+      textHandler.getTime(request, response);
       break;
     case '/helloJSON':
       jsonHandler.getHelloJSON(request, response);
